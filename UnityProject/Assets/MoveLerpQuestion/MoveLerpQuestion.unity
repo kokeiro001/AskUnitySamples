@@ -237,6 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 405b591141fa5f44cbbe9d7369f2aa7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  child_: {fileID: 1869170456}
 --- !u!1 &1869170454
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,6 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869170455}
   - component: {fileID: 1869170456}
+  - component: {fileID: 1869170457}
   m_Layer: 0
   m_Name: SlideObject
   m_TagString: Untagged
@@ -277,5 +279,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86a4313a9d5797488faca46e5706315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  split_: 5
   speed_: 0.5
+--- !u!212 &1869170457
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1869170454}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_MaskInteraction: 0

@@ -27,8 +27,6 @@ namespace MoveLerpQuestion
 
             var tmp = Vector3.Lerp(moveStart_, moveEnd_, time_);
             transform.position = new Vector3(tmp.x, transform.position.y, transform.position.z);
-
-            UpdateInput();
         }
 
         public void UpdateInput()
